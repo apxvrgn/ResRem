@@ -1,0 +1,13 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+import "google/protobuf/timestamp.proto";
+option java_package="com.dylanlin.AccountService";
+
+service AccountService {
+  rpc Authenticate (AuthenticationRequest) returns (google.protobuf.Empty);
+}
+
+message AuthenticationRequest {
+  string idToken = 1;
+}
+

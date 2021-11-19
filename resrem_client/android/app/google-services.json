@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "946460541416",
+    "project_id": "resrem",
+    "storage_bucket": "resrem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946460541416:android:aafcbc6c80ec1f9681245d",
+        "android_client_info": {
+          "package_name": "com.example.resrem_client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "946460541416-8pdpnlpdffoeh44ebi0e7arlni63cegn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.resrem_client",
+            "certificate_hash": "4fe7d1a8d40eb79d4ff4ba50352e51df7000d833"
+          }
+        },
+        {
+          "client_id": "946460541416-sc523ondrpu36v8sh2i1f263u1sh3m98.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx8pqkHbjQ70HgJs40a4szfAouTLTUr3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "946460541416-sc523ondrpu36v8sh2i1f263u1sh3m98.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

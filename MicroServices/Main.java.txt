@@ -1,0 +1,9 @@
+Server server = ServerBuilder.forPort(6969).addService(new com.dylanlin.AccountService.AccountService()).build();
+        try {
+            server.start();
+            System.out.println("Server Started");
+            server.awaitTermination();
+            System.out.println("Server Ended");
+        } catch (Exception e) {
+            System.out.println(e);
+        }
